@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+/* REUTILIZABLES */
+.btnCallToActionMain{
+    padding: 12px 18px;
+    border: 2px solid #50AEA3;
+    border-radius: 5px;
+    color: #50AEA3;
+    background: none;
+    transition: .5s;
+}
+.btnCallToActionMain:hover {
+    background: #50AEA3;
+    color: #f2f2f2;
+    border: 2px solid #50AEA3;
+}
+.dFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.alignCenter{
+    align-items: center;
+}
+.justifySpaceBetween{
+    justify-content: space-between;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.directionColum{
+    flex-direction: column;
+}
+.containerButtonCentrado{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centrarboton{
+    background: #50AEA3;
+    color: #151515;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+    transition: all 5s;
+}
+.centrarboton:hover{
+    
+    padding: 200px 250px;
+}
+p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+/* HEADER */
+.mainHeader{
+    background: #151515;
+    color: #f2f2f2;
+    padding: 20px 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.mainHeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    align-items: center;
+    margin: 0 auto;
+}
+.mainHeaderLogo{
+    letter-spacing: 10px;
+    color: #50AEA3;
+    font-size: 24px;
+}
+.mainHeaderNav{
+    width: 40%;
+}
+.mainHeaderNav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.mainHeaderNav ul li{
+    list-style: none;
+}
+.mainHeaderNav ul li a{
+    color: #f2f2f2;
+    text-decoration: #f2f2f2;
+    letter-spacing: 4px;
+    font-size: 16px;
+    transition: all .3s;
+}
+.mainHeaderNav :hover{
+    color: #50AEA3;
+}
+
+
+/* HERO */
+
+.hero{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.heroContainer{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.heroImg{
+    width: 50%;
+    min-width: 500px;
+}
+.heroImg img{
+    width: 100%;
+}
+.heroTexts{
+    width: 40%;
+    margin-left: 40px;
+}
+.heroTexts h1{
+    font-size: 48px;
+}
+.heroTexts p{
+    line-height: 30px;
+}
+.btnHero{
+    margin-top: 20px;
+}
+
+/* HABILIDADES */
+.habilidades{
+    background: #151515;
+    color: #f2f2f2;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.habilidadesTextosGrafica{
+    max-width: 48%;
+}
+.container85{
+    width: 85%;
+    margin: 0 auto;
+}
+.habilidades h2{
+    font-weight: 400;
+    letter-spacing: 8px;
+    font-size: 48px;
+}
+.habilidadesGrafica{
+    width: 100%;
+}
+.habilidadesGrafica ul li{
+    color: #50AEA3;
+    list-style: none;
+    margin-top: 12px;
+    font-size: 20px;
+    display: flex;
+}
+.graph1, .graph2, .graph3, .graph4{
+    width: 40%;
+    background: #50AEA3;
+    height: 30px;
+    margin-left: 20px;
+}
+.graph2{
+    width: 70%;
+}
+.graph3{
+    width: 10%;
+}
+.titleGraph{
+    width: 25%;
+}
+
+/* HISTORIA */
+
+.historia{
+    text-align: center;
+    background-image: url(../img/histotia.png);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    color: #f2f2f2;
+}
+.historia h2{
+    font-size: 42px;
+    margin-bottom: 40px;
+    color: #50AEA3;
+    font-weight: 500;
+}
+.historia p{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+
+/* ESTUDIOS */
+.estudiosFlex{
+    width: 100%;
+}
+.textEstudio{
+    width: 40%;
+}
+.textEstudio h3{
+ color: #50AEA3;
+ font-weight: 500;
+ margin-bottom: 9px;
+ font-size: 28px;
+}
+.textEstudio h4{
+    font-weight: 500;
+    margin-bottom: 9px;
+    font-size: 22px;
+}
+.textEstudio p{
+    font-weight: 100;  
+    font-size: 16px;
+}
+
+/* FORM */
+
+.form{
+    background: #151515;
+    width: 100%;
+    text-align: center;
+    padding: 70px 0;
+    height: 90vh;
+}
+.form h2{
+    color: #50AEA3;
+    font-size: 32px;
+    font-weight: 400;
+}
+.form p{
+    color: #f2f2f2;
+
+}
+.form form input{
+    background: none;
+    border: 1px solid #50AEA3;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin: 4px 0;
+    width: 70%;
+}
+.form form textarea{
+    background: none;
+    border: 1px solid #50AEA3;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin: 4px 0;
+    width: 70%;
+}
